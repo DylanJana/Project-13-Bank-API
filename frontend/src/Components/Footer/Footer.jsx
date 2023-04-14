@@ -3,8 +3,8 @@ import './Footer.css';
 
 export default function Footer() {
   return (
-    <div>
-      Pied de page
-    </div>
+    <footer className="footer">
+      <p>Copyright 2020 Argent Bank</p>
+    </footer>
   )
 }

@@ -40,7 +40,7 @@ export default function Home() {
           <div className="feature-item text--center">
             <img
               src={moneyIcon}
-              alt="Chat Icon"
+              alt="Money Icon"
               className="feature-icon"
             />
             <h3 className="title-sm fw--700 mt--md">More savings means higher rates</h3>
@@ -53,7 +53,7 @@ export default function Home() {
           <div className="feature-item text--center">
             <img
               src={securityIcon}
-              alt="Chat Icon"
+              alt="Security Icon"
               className="feature-icon"
             />
             <h3 className="title-sm fw--700 mt--md">Security you can trust</h3>

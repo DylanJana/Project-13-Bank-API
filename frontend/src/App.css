@@ -42,12 +42,20 @@ p {
   display: flex;
 }
 
+.justify-content--center {
+  justify-content: center;
+}
+
+.justify-content--space-between {
+  justify-content: space-between;
+}
+
 .justify-content--end {
   justify-content: end;
 }
 
-.justify-content--center {
-  justify-content: center;
+.align-items--center {
+  align-items: center;
 }
 
 /*** Type of text ***/
