@@ -7,8 +7,6 @@
 
 html {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
 
@@ -101,6 +99,12 @@ p {
   margin-top: 1.2rem;
 }
 
+
+.mb--md {
+  margin-bottom: 2rem;
+}
+
+
 .mb--sm {
   margin-bottom: 1rem;
 }
@@ -118,9 +122,33 @@ p {
   max-width: 370px;
 }
 
+.w--100 {
+  width: 100%;
+}
 /*** Themes ***/
 .t--dark {
   background-color: #12002b;
+}
+
+/*** Buttons ***/
+.btn--plain {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.btn--plain.btn--green {
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+}
+
+.btn--plain.btn--green:hover {
+  border-color: #005834;
+  background-color: #005834;
+  cursor: pointer;
 }
 
 @media(max-width: 992px) {

@@ -26,10 +26,10 @@ export default function SignIn() {
                 <input type="checkbox" id="remember-me" />
                 <label for="remember-me">Remember me</label>
               </div>
-              <Link to={"/user"} className="signin-btn">
+              <Link to={"/user"} className="btn--plain btn--green">
                 Sign In
               </Link>
-              {/* <button type='submit' className="signin-btn">Sign In</button> */}
+              {/* <button type='submit' className="btn--plain btn--green">Sign In</button> */}
             </form>
           </div>
         </section>

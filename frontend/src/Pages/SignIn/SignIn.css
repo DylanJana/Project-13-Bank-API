@@ -1,5 +1,5 @@
 .signin {
-  height: 84vh;
+  padding-bottom: 243px;
 }
 
 .signin-container {
@@ -20,20 +20,4 @@
 
 .signin-form__field-remember input {
   margin-right: 0.5rem;
-}
-
-.signin-btn {
-  display: block;
-  text-align: center;
-  padding: 8px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  border-color: #00bc77;
-  background-color: #00bc77;
-  color: #fff;
-}
-
-.signin-btn:hover {
-  border-color: #005834;
-  background-color: #005834;
 }
