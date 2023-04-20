@@ -1,6 +1,8 @@
-import axios from "axios";
+import axios from 'axios';
 
 const BASEURL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api/v1/';
+
+console.log("AXIOS", axios)
 
 export const connectUser = async(email, password) => {
   let userInfos;

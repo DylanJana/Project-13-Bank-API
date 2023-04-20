@@ -1,7 +1,7 @@
 import {createSlice} from '@reduxjs/toolkit';
 
 // Create my initial state
-const INITIAL_STATE = {
+const initialState = {
   firstName: null,
   lastName: null,
   email: null,
@@ -11,9 +11,10 @@ const INITIAL_STATE = {
 
 const userSlice = createSlice({
   name:'userInfos',
-  INITIAL_STATE,
+  initialState,
   reducers: {
-    setUser: (state = INITIAL_STATE, action) => {
+    setUser: (state, action) => {
+      console.log("state ", state)
       return {
         ...action.payload, userConnected: true
       }
