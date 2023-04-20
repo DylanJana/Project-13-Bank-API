@@ -10,6 +10,9 @@ import Page404 from './Pages/Page404/Page404';
 // Import React Router Dom to use Routes & Route methode
 import {Routes, Route, Navigate} from 'react-router-dom';
 
+// Import call API
+import './utils/userApi';
+
 // Import Global style
 import './App.css';
 

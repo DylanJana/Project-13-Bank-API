@@ -28,7 +28,7 @@ export default function Home() {
             <img 
             src={chatIcon} 
             alt="Chat Icon" 
-            class="feature-icon" />
+            className="feature-icon" />
             <h3 className="title-sm fw--700 mt--md">You are our #1 priority</h3>
             <div className="mw--370 mx--auto">
               <p className='mt--md'>
