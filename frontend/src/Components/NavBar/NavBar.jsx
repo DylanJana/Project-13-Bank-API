@@ -4,7 +4,7 @@ import './NavBar.css';
 // Import method to react-router-dom
 import { Link } from 'react-router-dom';
 // Import logo
-import logo from '../../assets/img/argentBankLogo.png';
+import logo from '../../assets/img/argentBankLogo.webp';
 
 export default function NavBar() {
   const connected = false;
